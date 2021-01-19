@@ -8,6 +8,7 @@
 
 
 header{
+    position: relative;
     height: 10vh;
     background-color: white;
     display: flex;
@@ -29,7 +30,7 @@ header > .links {
 
 
 .background{
-    height: ;
+    height: 100vh;
     position: absolute;
     z-index: -999;
 }
@@ -42,7 +43,7 @@ main{
 footer{
     width: 100%;
     display: flex;
-    background-color: white;
+    
     height: 10vh;
     font-size: large;
     justify-content: flex-end;

@@ -23,6 +23,79 @@ header > .links {
     justify-self: right;
     justify-content: space-evenly;
 }
+
+.devices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.device_status{
+    margin-left: 50px;
+}
+.virtual{
+    margin-top: 100px;
+}
+
+.device_status_indicator{
+    padding: 10px;
+    border: 1px solid;
+    border-radius : 10px;
+    color: White;
+    background-color: green;
+}
+.device_status_indicator:hover{
+    background-color: red;
+    
+}
+
+.grid > span {
+    
+    padding: 40px;
+    border: 1px solid;
+    color: White;
+    background-color: green;
+    
+}
+
+.grid_1:hover{
+    background-color: red;
+
+}
+.grid_2:hover{
+    background-color: red;
+
+}
+.grid_3:hover{
+    background-color: red;
+
+}
+.grid_4:hover{
+    background-color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a{
     color: black;
     text-decoration: none;
