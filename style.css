@@ -11,12 +11,12 @@ header{
     height: 10vh;
     background-color: white;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header > .logo {
  width: 80%;
- padding: 10px;
- padding-left: 60px;
+ margin-left: 100px;
 }
 
 header > .links {
@@ -29,7 +29,7 @@ header > .links {
 
 
 .background{
-    height: 80px;
+    height: ;
     position: absolute;
     z-index: -999;
 }
@@ -82,6 +82,8 @@ a{
     align-items: center;
     justify-content: center;    
     justify-items: center;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 
 button{
